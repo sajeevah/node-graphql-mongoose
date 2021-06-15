@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sajeevah/node-graphql-mongoose/issues"
   },
-  "homepage": "https://github.com/sajeevah/node-graphql-mongoose#readme"
+  "homepage": "https://github.com/sajeevah/node-graphql-mongoose#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
 }
