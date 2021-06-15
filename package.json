@@ -1,0 +1,19 @@
+{
+  "name": "graphql-mongoose",
+  "version": "1.0.0",
+  "description": "Simple GraphQL mongoose solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajeevah/node-graphql-mongoose.git"
+  },
+  "author": "Sajeeva Hasith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajeevah/node-graphql-mongoose/issues"
+  },
+  "homepage": "https://github.com/sajeevah/node-graphql-mongoose#readme"
+}
