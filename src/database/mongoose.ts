@@ -1,7 +1,8 @@
 import { connect, disconnect } from "mongoose";
+import config from "../config";
 
 
-const uri = '';
+const uri = config.MONGO_CONN_STRING;
 
 export const dbConnection = (() : Promise<void> => {
     return new Promise((resolve, reject) => {

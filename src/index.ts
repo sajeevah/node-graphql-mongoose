@@ -1,4 +1,5 @@
 import { graphql, buildSchema } from 'graphql';
+import { dbConnection } from './database/mongoose';
 
 
 const schema = buildSchema(`
@@ -6,7 +7,7 @@ const schema = buildSchema(`
     hello: String
   }
 `);
-
+dbConnection();
 const root = { hello: () => 'Hello world!' };
 
 graphql(schema, '{ hello }', root).then((response) => {
