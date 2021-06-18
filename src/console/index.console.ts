@@ -18,5 +18,3 @@ console.log(response);
 });
 
 }
-
-index();
