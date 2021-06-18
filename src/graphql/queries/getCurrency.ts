@@ -6,6 +6,6 @@ export const getCurrency = async (): Promise<ICurrency[]> => {
         return currencies;
     } catch (error) {
         console.error('error in getCurrency : ', error);
-        return [];
+        throw new Error(error);
     }
 }

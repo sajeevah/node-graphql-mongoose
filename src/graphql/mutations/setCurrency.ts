@@ -7,7 +7,6 @@ export const setCurrency = async (currency: ICurrency): Promise<ICurrency> => {
         return savedCurrency;
     } catch (error) {
         console.error('error in post Currencies : ', error);
-        const err: ICurrency = new Currency();
-        return err;
+        throw new Error(error);
     }
 }
