@@ -1,6 +1,6 @@
 import { Currency, ICurrency } from "../../models/currency.model";
 
-export const postCurrency = async (currency: ICurrency): Promise<ICurrency> => {
+export const setCurrency = async (currency: ICurrency): Promise<ICurrency> => {
     try {
         const currencyModel = new Currency(currency);
         const savedCurrency: ICurrency = await currencyModel.save();
