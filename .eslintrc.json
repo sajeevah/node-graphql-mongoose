@@ -16,5 +16,12 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "@typescript-eslint/quotes": [
+            "error",
+            "single",
+            {
+              "allowTemplateLiterals": true
+            }
+        ]
     }
 }

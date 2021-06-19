@@ -1,5 +1,5 @@
-import { Country } from "../../models/country.model";
-import { ILocation, Location } from "../../models/location.model";
+import { Country } from '../../models/country.model';
+import { ILocation, Location } from '../../models/location.model';
 
 
 export const setLocation = async (location: ILocation): Promise<ILocation> => {

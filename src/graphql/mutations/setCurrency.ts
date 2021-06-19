@@ -1,4 +1,4 @@
-import { Currency, ICurrency } from "../../models/currency.model";
+import { Currency, ICurrency } from '../../models/currency.model';
 
 export const setCurrency = async (currency: ICurrency): Promise<ICurrency> => {
     try {

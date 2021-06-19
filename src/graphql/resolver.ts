@@ -1,5 +1,5 @@
-import { setCurrency } from "./mutations/setCurrency";
-import { getCurrency } from "./queries/getCurrency";
+import { setCurrency } from './mutations/setCurrency';
+import { getCurrency } from './queries/getCurrency';
 
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 export const root = { 

@@ -1,4 +1,4 @@
-import { Country, ICountry } from "../../models/country.model";
+import { Country, ICountry } from '../../models/country.model';
 
 export const setCountry = async (country: ICountry): Promise<ICountry> =>  {
     try {
